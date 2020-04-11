@@ -4,5 +4,5 @@
 
  :aliases
  {:main {:main-opts ["-m" "basics.main"]}
-  :test {:extra-deps {lambdaisland/kaocha      {:mvn/version "0.0-601"}}
+  :test {:extra-deps {lambdaisland/kaocha      {:mvn/version "1.0-612"}}
          :main-opts  ["-m" "kaocha.runner"]}}}
