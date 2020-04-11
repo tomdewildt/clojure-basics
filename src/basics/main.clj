@@ -2,7 +2,8 @@
                            [basics.atoms :as atoms]
                            [basics.closures :as closures]
                            [basics.format :as format]
-                           [basics.functions :as functions]))
+                           [basics.functions :as functions]
+                           [basics.lists :as lists]))
 
 (defn -main
   [& args]
@@ -24,4 +25,8 @@
 
   (println "--- Functions ---")
   (functions/main)
+  (println "")
+
+  (println "--- Lists ---")
+  (lists/main)
   (println ""))
