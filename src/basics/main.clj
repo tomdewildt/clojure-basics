@@ -4,7 +4,8 @@
                            [basics.format :as format]
                            [basics.functions :as functions]
                            [basics.lists :as lists]
-                           [basics.loops :as loops]))
+                           [basics.loops :as loops]
+                           [basics.macros :as macros]))
 
 (defn -main
   [& args]
@@ -34,4 +35,8 @@
 
   (println "--- Loops ---")
   (loops/main)
+  (println "")
+
+  (println "--- Macros ---")
+  (macros/main)
   (println ""))
