@@ -6,7 +6,8 @@
                            [basics.lists :as lists]
                            [basics.loops :as loops]
                            [basics.macros :as macros]
-                           [basics.maps :as maps]))
+                           [basics.maps :as maps]
+                           [basics.math :as math]))
 
 (defn -main
   [& args]
@@ -44,4 +45,8 @@
 
   (println "--- Maps ---")
   (maps/main)
+  (println "")
+
+  (println "--- Math ---")
+  (math/main)
   (println ""))
