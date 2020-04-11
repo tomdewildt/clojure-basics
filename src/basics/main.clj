@@ -11,7 +11,8 @@
                            [basics.operators :as operators]
                            [basics.sets :as sets]
                            [basics.strings :as strings]
-                           [basics.structs :as structs]))
+                           [basics.structs :as structs]
+                           [basics.variables :as variables]))
 
 (defn -main
   [& args]
@@ -69,4 +70,8 @@
 
   (println "--- Structs ---")
   (structs/main)
+  (println "")
+
+  (println "--- Variables ---")
+  (variables/main)
   (println ""))
