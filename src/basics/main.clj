@@ -1,6 +1,7 @@
 (ns basics.main  (:require [basics.agents :as agents]
                            [basics.atoms :as atoms]
-                           [basics.closures :as closures]))
+                           [basics.closures :as closures]
+                           [basics.format :as format]))
 
 (defn -main
   [& args]
@@ -14,4 +15,8 @@
 
   (println "--- Closures ---")
   (closures/main)
+  (println "")
+
+  (println "--- Format ---")
+  (format/main)
   (println ""))
