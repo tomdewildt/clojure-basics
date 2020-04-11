@@ -3,7 +3,8 @@
                            [basics.closures :as closures]
                            [basics.format :as format]
                            [basics.functions :as functions]
-                           [basics.lists :as lists]))
+                           [basics.lists :as lists]
+                           [basics.loops :as loops]))
 
 (defn -main
   [& args]
@@ -29,4 +30,8 @@
 
   (println "--- Lists ---")
   (lists/main)
+  (println "")
+
+  (println "--- Loops ---")
+  (loops/main)
   (println ""))
