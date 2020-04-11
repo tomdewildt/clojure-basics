@@ -8,7 +8,8 @@
                            [basics.macros :as macros]
                            [basics.maps :as maps]
                            [basics.math :as math]
-                           [basics.operators :as operators]))
+                           [basics.operators :as operators]
+                           [basics.sets :as sets]))
 
 (defn -main
   [& args]
@@ -54,4 +55,8 @@
 
   (println "--- Operators ---")
   (operators/main)
+  (println "")
+
+  (println "--- Sets ---")
+  (sets/main)
   (println ""))
