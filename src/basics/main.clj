@@ -9,7 +9,8 @@
                            [basics.maps :as maps]
                            [basics.math :as math]
                            [basics.operators :as operators]
-                           [basics.sets :as sets]))
+                           [basics.sets :as sets]
+                           [basics.strings :as strings]))
 
 (defn -main
   [& args]
@@ -59,4 +60,8 @@
 
   (println "--- Sets ---")
   (sets/main)
+  (println "")
+
+  (println "--- Strings ---")
+  (strings/main)
   (println ""))
