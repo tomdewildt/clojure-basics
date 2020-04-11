@@ -12,7 +12,8 @@
                            [basics.sets :as sets]
                            [basics.strings :as strings]
                            [basics.structs :as structs]
-                           [basics.variables :as variables]))
+                           [basics.variables :as variables]
+                           [basics.vectors :as vectors]))
 
 (defn -main
   [& args]
@@ -74,4 +75,8 @@
 
   (println "--- Variables ---")
   (variables/main)
+  (println "")
+
+  (println "--- Vectors ---")
+  (vectors/main)
   (println ""))
