@@ -4,5 +4,6 @@
 
  :aliases
  {:main {:main-opts ["-m" "basics.main"]}
-  :test {:extra-deps {lambdaisland/kaocha      {:mvn/version "1.0.690"}}
+  :test {:extra-deps {org.clojure/test.check   {:mvn/version "1.0.0"}
+                      lambdaisland/kaocha      {:mvn/version "1.0.700"}}
          :main-opts  ["-m" "kaocha.runner"]}}}
