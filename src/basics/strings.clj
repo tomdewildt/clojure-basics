@@ -1,6 +1,7 @@
 (ns basics.strings
   (:require [clojure.string :as str]))
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define string variable

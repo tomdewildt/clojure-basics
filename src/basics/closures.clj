@@ -4,6 +4,7 @@
   [multiply-by]
   #(* % multiply-by))
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define closure variable

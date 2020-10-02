@@ -1,5 +1,6 @@
 (ns basics.structs)
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define vector variable
@@ -10,6 +11,7 @@
     (println "Values to symbols:" one two rest))
 
   ;; Create struct
+  #_{:clj-kondo/ignore [:unresolved-symbol]}
   (defstruct TraditionalStruct :string-variable :int-variable)
 
   ;; Instantiate struct

@@ -16,7 +16,7 @@
                            [basics.vectors :as vectors]))
 
 (defn -main
-  [& args]
+  []
   (println "--- Agents ---")
   (agents/main)
   (println "")

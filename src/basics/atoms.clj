@@ -1,5 +1,6 @@
 (ns basics.atoms)
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define atom variable
