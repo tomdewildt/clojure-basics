@@ -1,5 +1,6 @@
 (ns basics.lists)
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define list

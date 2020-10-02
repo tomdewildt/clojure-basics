@@ -1,5 +1,6 @@
 (ns basics.agents)
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define agent variable

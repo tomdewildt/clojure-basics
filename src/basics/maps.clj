@@ -1,5 +1,7 @@
 (ns basics.maps)
 
+
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define hashmap variable

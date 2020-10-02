@@ -1,5 +1,6 @@
 (ns basics.variables)
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define long variable

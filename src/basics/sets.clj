@@ -1,5 +1,6 @@
 (ns basics.sets)
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define set variable

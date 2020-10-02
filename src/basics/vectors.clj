@@ -1,6 +1,7 @@
 (ns basics.vectors
   (:gen-class))
 
+#_{:clj-kondo/ignore [:inline-def]}
 (defn main
   []
   ;; Define vector variable
