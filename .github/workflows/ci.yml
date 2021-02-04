@@ -17,14 +17,8 @@ jobs:
         with:
           java-version: 11
       - name: Install clojure
-        uses: DeLaGuardo/setup-clojure@2.0
+        uses: DeLaGuardo/setup-clojure@3.1
         with:
           tools-deps: 1.10.1.492
-      - name: Install clj-kondo
-        uses: DeLaGuardo/setup-clj-kondo@v1
-        with:
-          version: "2020.09.09"
-      - name: Run lint
-        run: clj-kondo --lint src
       - name: Run test
         run: clojure -A:test
