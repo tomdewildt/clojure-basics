@@ -15,6 +15,7 @@ jobs:
       - name: Install java
         uses: actions/setup-java@v2
         with:
+          distribution: adopt
           java-version: 11
       - name: Install clojure
         uses: DeLaGuardo/setup-clojure@3.2
