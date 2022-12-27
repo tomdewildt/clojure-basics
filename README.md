@@ -1,5 +1,5 @@
 # Clojure Basics
-[![Build](https://img.shields.io/github/workflow/status/tomdewildt/clojure-basics/ci/master)](https://github.com/tomdewildt/clojure-basics/actions?query=workflow%3Aci)
+[![Build](https://img.shields.io/github/actions/workflow/status/tomdewildt/clojure-basics/ci.yml?branch=master)](https://github.com/tomdewildt/clojure-basics/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/tomdewildt/clojure-basics)](https://github.com/tomdewildt/clojure-basics/blob/master/LICENSE)
 
 Syntax basics for the clojure programming language.
