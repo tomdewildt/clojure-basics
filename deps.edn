@@ -1,6 +1,6 @@
 {:paths ["src"]
  :deps  {org.clojure/clojure                   {:mvn/version "1.11.1"}
-         org.clojure/tools.cli                 {:mvn/version "1.0.214"}}
+         org.clojure/tools.cli                 {:mvn/version "1.0.219"}}
 
  :aliases
  {:main {:main-opts ["-m" "basics.main"]}
